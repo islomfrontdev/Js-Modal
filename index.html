@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="modal-texno shadow d-none" id="texno-modal">
+      <div class="text-end">
+        <button
+          class="btn"
+          onclick="closeModal()"
+          
+        >
+          <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+        </button>
+      </div>
+      <p>100</p>
+      <button class="btn" onclick="add()">+</button>
+      <button class="btn" onclick="minus()">-</button>
+      <p id="all-price">0</p>
+    </div>
+    <header class="py-2 shadow">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <h1>Logo</h1>
+          </div>
+          <div>
+            <button class="btn" onclick="openModal()">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+      totam, aliquam error quidem consequuntur quod expedita saepe dolore earum
+      officiis corporis necessitatibus officia vitae facere quasi numquam dolor
+      doloribus nemo, mollitia iure beatae ad quia provident. Fuga incidunt nam
+      tenetur quasi dolorum sint ducimus perferendis laudantium non asperiores
+      eveniet nesciunt, aut ex mollitia, blanditiis qui maiores tempore
+      molestiae. Quae eum cupiditate animi laboriosam dolorem culpa obcaecati
+      minima magni? Explicabo officia maxime eos natus quae sapiente labore
+      minima doloribus consectetur iusto nobis, nulla, distinctio adipisci sequi
+      quisquam possimus cum! Alias, quidem? Inventore exercitationem placeat
+      nisi repudiandae dolorum vel ratione delectus illo dolores cupiditate.
+      Consectetur ipsa dignissimos eaque, recusandae repudiandae eum, totam nam
+      aut magni quisquam cumque, veritatis necessitatibus facilis. Repellendus
+      iure dolores eveniet facilis, magnam eos inventore vero provident nam,
+      expedita obcaecati veritatis, asperiores minima quam voluptatem eaque
+      dolore? Debitis, illum voluptates. Eos commodi quaerat fuga voluptatem
+      incidunt, distinctio similique cumque soluta illo magnam veniam illum
+      autem, maxime ipsam vero optio id excepturi ullam aliquid magni tenetur
+      nam adipisci exercitationem voluptatibus! Iste aliquid aperiam consectetur
+      commodi iusto fugit, possimus quam vero nostrum quis. Praesentium nisi
+      facilis reprehenderit omnis iure. Quidem libero consectetur voluptatibus
+      sint, nam ut harum dolorum vitae blanditiis nihil, voluptate itaque quod
+      temporibus rem sit iusto adipisci exercitationem? Nisi accusantium nihil
+      amet dolores fugiat reiciendis esse, ab, eligendi libero deleniti harum?
+      Harum asperiores nihil temporibus! Itaque consectetur iusto deserunt
+      ducimus iste cumque laboriosam excepturi dolores quisquam harum, maiores,
+      culpa nisi maxime voluptatum quaerat blanditiis veritatis est nam
+      reprehenderit. Quia rem tenetur libero, pariatur excepturi aspernatur
+      dolore velit ipsam similique natus cum vero ipsum, perspiciatis maxime sed
+      magnam. Recusandae minima eligendi, iste, illo aut, possimus aspernatur
+      odit cupiditate officia ex inventore? Est pariatur, laboriosam dolore ut
+      sequi at atque nihil? Ipsum adipisci laudantium iste labore, aut iure
+      assumenda dolore corrupti doloribus error soluta nulla porro vero
+      repellendus ab ducimus quis commodi amet magnam veniam nihil dolor? Beatae
+      commodi provident aliquid ipsum quo velit! Labore aut cumque deleniti
+      laboriosam? Aliquam, velit placeat. Repudiandae, est aliquam?
+      Reprehenderit aliquam dignissimos suscipit eaque nemo delectus, sequi,
+      nulla quod quo esse quasi odio consectetur officiis nostrum. Ea suscipit
+      excepturi eius quaerat, soluta, quia praesentium inventore nam iusto qui
+      molestias dolorum impedit repellendus eligendi cum. Impedit repudiandae ad
+      tenetur veniam ipsum nihil saepe, quibusdam quaerat ut deleniti modi
+      perferendis totam aut molestiae? Laboriosam adipisci ullam voluptatem
+      repudiandae asperiores. Porro, eius molestias fuga labore magni
+      perferendis facere tempore sapiente? Ad facilis magni optio ut dolorem
+      fugit tenetur expedita, cumque velit aperiam dolorum. Voluptas, assumenda
+      tenetur eos provident sequi et maiores dignissimos similique quod harum
+      repudiandae a. Tempora, impedit autem? Doloribus architecto asperiores
+      veritatis dicta! Ipsum, inventore consequatur praesentium aspernatur optio
+      veniam minus quos voluptatibus quo. Reprehenderit magnam, amet hic in
+      placeat repellat a provident asperiores maiores aut, quas delectus
+      tenetur, non ducimus distinctio? Aut officiis quis tempora porro iste
+      vitae odio debitis incidunt, expedita quas cum ab, nihil hic eius quidem
+      omnis dolorem repellat obcaecati consectetur nisi! Impedit amet nobis
+      doloribus fugit consequuntur natus nostrum. Neque, asperiores commodi.
+      Enim dolorum nostrum repellendus consequuntur, amet nulla sunt dicta quas
+      corporis vel magnam ad suscipit. Quidem quo excepturi saepe temporibus,
+      cum, molestiae totam sequi impedit maiores neque possimus. Maxime, et enim
+      quaerat voluptatibus earum consequuntur, eligendi illum saepe sapiente, ut
+      atque alias pariatur qui illo dolorem sit excepturi animi sed. Ea at ad
+      asperiores iusto esse facere, qui tenetur repudiandae quisquam possimus
+      quo dolorum voluptate reiciendis repellat eos corrupti illo consequuntur
+      molestiae, eum nesciunt architecto. Soluta iure sequi ipsam error rerum
+      sit laudantium harum? Adipisci laudantium veritatis, dolorem vitae autem,
+      asperiores ut, suscipit impedit sed iusto nemo quia. Quia dolorem non
+      harum placeat explicabo vero ipsam nobis magnam possimus ipsa reiciendis
+      ad eius laboriosam minus velit ipsum in, eos esse. Doloremque voluptatum
+      laborum dolorem quas. Quidem labore quae ut tempora similique iste placeat
+      voluptatum adipisci totam. Excepturi numquam debitis nesciunt temporibus
+      ducimus. Fuga voluptates quae tempora voluptatem sit consequuntur
+      asperiores placeat, ad vel ex architecto, laborum ipsum! Adipisci
+      accusantium ratione, natus ut ducimus dolore quibusdam asperiores, dolorem
+      atque facere debitis odit autem, officia maiores ipsum. Praesentium
+      aliquam atque blanditiis minus impedit exercitationem minima provident
+      nihil, consequuntur, reiciendis possimus commodi mollitia vel? Eaque,
+      earum? Fuga ullam incidunt dolor itaque ratione velit quisquam rerum,
+      sapiente sequi saepe aut neque numquam tempore odio repellendus officia
+      sed vitae delectus nesciunt suscipit praesentium cupiditate omnis. Animi
+      dignissimos accusantium sequi? A adipisci beatae nulla? Commodi minima nam
+      et quibusdam, facere voluptas. Impedit, deleniti? Ipsam qui accusamus sed,
+      consequatur, aperiam fugit quas culpa maxime et facere beatae. Hic,
+      perferendis obcaecati inventore aperiam adipisci iusto dolorem aliquid
+      atque, minima dolores libero amet tempora voluptate quis numquam ut aut
+      recusandae, exercitationem expedita maiores molestias quo vero.
+      Reprehenderit atque expedita ullam id iusto sapiente blanditiis itaque
+      vero accusamus dolore nemo saepe tenetur repudiandae, necessitatibus modi
+      harum quasi sit eius quidem! Ipsam cum quos praesentium fugit, rem
+      repudiandae repellendus itaque, laudantium provident minus recusandae?
+      Enim vel consectetur veniam accusantium nemo pariatur corrupti dolorem
+      possimus blanditiis excepturi at, tenetur suscipit? Cum commodi error
+      consectetur delectus repellendus quod obcaecati, ducimus natus odio dolore
+      dignissimos quas et, ex explicabo temporibus eum pariatur aspernatur
+      voluptates, distinctio accusamus laboriosam velit alias. Excepturi,
+      aperiam quaerat eveniet dignissimos aspernatur veritatis minima doloremque
+      magnam minus sequi reiciendis quidem nostrum eligendi sed laboriosam, quis
+      cum eius saepe harum doloribus magni maiores! Ipsam asperiores ratione
+      nulla in. Sapiente ut impedit ex natus totam voluptate ea? Expedita
+      cupiditate ullam id magnam earum pariatur voluptates velit perferendis
+      praesentium, ipsa porro aperiam odit provident quod soluta tenetur vel eum
+      facilis sit, debitis dolore, rem architecto. Eos facilis recusandae culpa
+      ad aliquid voluptas, numquam velit dolore ab officia? Soluta earum veniam
+      alias, maiores vitae repellendus facilis, laboriosam repudiandae et harum
+      reprehenderit omnis ea! Rerum dolores aspernatur doloribus provident ad
+      quibusdam facere repellendus itaque ea. Inventore, dolorem placeat ad
+      tempore beatae ipsum quidem dolorum totam soluta alias quia illum iusto
+      aut blanditiis possimus iure ullam perspiciatis aperiam illo velit,
+      aliquid corporis minima eligendi. Necessitatibus, minus error magni qui
+      nostrum provident facere pariatur dolore rerum adipisci!
+    </p>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/513b2e20a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
